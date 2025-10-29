@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 Loldaddy5676
+#
+# SPDX-License-Identifier: MPL-2.0
+
 - type: vessel
   id: ambassador
   parent: BaseVessel
