@@ -2,7 +2,7 @@
   id: ambassador
   parent: BaseVessel
   name: Ambassador
-  description: A large vessel tailored made to conduct diplomacy within sectors. Equipped with a small medical bay, recreational room, a meeting room, security room, and finally a reprogrammed ADS core to assist the liaison. However, due to its nature as a mediator vessel between multiple groups, it is only outfitted with non-lethal weaponry, which includes 10 rubicon turrets. powered by two pinch reactors. 
+  description: A large vessel tailored made to conduct diplomacy within sectors. Equipped with a small medical bay, recreational room, a meeting room, security room, and finally a reprogrammed ADS core to assist the liaison. However, just because it is meant for diplomacy, does not mean it bears no defenses. equiped with hidden gun bays, which contain 4 toveks, 4 dravons, and 4 phalanxs. powered by two pinch reactors. 
   price: 300000
   category: Small
   group: Sr
