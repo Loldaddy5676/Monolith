@@ -13556,3 +13556,12 @@ Entries:
   id: 1500
   time: '2025-10-31T19:11:59.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2528
+- author: Ilya246
+  changes:
+    - type: Tweak
+      message: PTK projectile velocity, and range, quadrupled.
+    - type: Tweak
+      message: M25 mining pulsar range halved but firerate 4->5.
+  id: 1501
+  time: '2025-10-31T19:13:32.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2530
