@@ -13542,3 +13542,10 @@ Entries:
   id: 1498
   time: '2025-10-31T03:09:37.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2525
+- author: SeaborneProto
+  changes:
+    - type: Tweak
+      message: Additional Tajaran FurTones!
+  id: 1499
+  time: '2025-10-31T19:11:05.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2531
