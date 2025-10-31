@@ -13565,3 +13565,16 @@ Entries:
   id: 1501
   time: '2025-10-31T19:13:32.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2530
+- author: Ark
+  changes:
+    - type: Add
+      message: Second batch of Physical traits!
+    - type: Fix
+      message: You should be able to open up armor plates storage now in hardsuits.
+    - type: Fix
+      message: >-
+        Trap Avoider trait should no longer be stunned by banana peels and soap.
+        Issue was the component was not networked to the client-side.
+  id: 1502
+  time: '2025-10-31T19:22:38.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2532
