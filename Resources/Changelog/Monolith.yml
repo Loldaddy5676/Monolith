@@ -13578,3 +13578,12 @@ Entries:
   id: 1502
   time: '2025-10-31T19:22:38.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/2532
+- author: kasature90
+  changes:
+    - type: Remove
+      message: >-
+        Removed playtime requirements for ASR insurgent and TSF marine &
+        corpsman.
+  id: 1503
+  time: '2025-10-31T20:08:38.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/2501
