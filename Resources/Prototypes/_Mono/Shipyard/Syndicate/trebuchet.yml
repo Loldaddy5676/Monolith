@@ -1,0 +1,39 @@
+- type: vessel
+  id: Trebuchet
+  parent: BaseVesselAntag
+  name: SYN Trebuchet
+  description: A ancient light cruiser created during the corporate war, designed to provide heavy fire support from long range. comes with two Hydras, and two Howitzers alongside adders point defense. It also has a built in hanger for mechs. Death to Nanotrasen
+  limit: 3
+  price: 500000
+  purchasable: false # voucher only
+  category: Large
+  group: Syndicate
+  access: Mercenary
+  shuttlePath: /Maps/_Mono/Shuttles/syndicate/trebuchet.yml
+  guidebookPage: Null
+  class:
+  - Capital
+  - Cruiser
+  - Medical
+  - Chemistry
+  - Pursuit
+  - Patrol
+  engine:
+  - Plasma
+
+- type: gameMap
+  id: Trebuchet
+  mapName: 'Trebuchet'
+  mapPath: /Maps/_Mono/Shuttles/syndicate/trebuchet.yml
+  minPlayers: 0
+  stations:
+    Trebuchet:
+      stationProto: StandardFrontierVessel
+      components:
+      - type: StationNameSetup
+        mapNameTemplate: 'Trebuchet SYN{1}'
+        nameGenerator:
+          !type:NanotrasenNameGenerator
+          prefixCreator: '14'
+      - type: StationJobs
+        availableJobs: {}
