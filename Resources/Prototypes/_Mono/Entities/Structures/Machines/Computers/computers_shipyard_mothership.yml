@@ -106,6 +106,28 @@
     - map: ["computerLayerKeys"]
       state: blackmarket_key
 
+- type: entity
+  id: SpasakaShipyardComputer
+  parent: BaseCarrierComputer
+  name: spasaka shipyard console
+  description: A console used by the local spasakas to call in "refurbished" ships to use during operations
+  components:
+  - type: ShipyardListing
+    shuttles:
+    - Hazel
+    - Tethys
+    - SpyglassMKII
+  - type: Sprite
+    sprite: _NF/Structures/Machines/computers.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer_blackmarket
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: shipyard_blackmarket
+    - map: ["computerLayerKeys"]
+      state: blackmarket_key
 
 - type: entity
   id: PDVMotleyAnneCarrierComputer
