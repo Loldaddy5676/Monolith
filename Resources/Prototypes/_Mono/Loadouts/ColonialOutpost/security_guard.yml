@@ -1,13 +1,10 @@
 - type: loadoutGroup
   id: MonoSecurityGuardOuterClothing
   name: loadout-group-contractor-outerclothing
+  hidden: true # No point in showing this, it gets auto-selected.
   minLimit: 1
   loadouts:
   - MonoSecurityGuardVestSlim
-  - ContractorClothingOuterMilBomber
-  - ContractorClothingOuterMilBomberCorpsman
-  - ContractorClothingOuterMilFormal
-  - ContractorClothingOuterMilLongcoat
   fallbacks:
   - MonoSecurityGuardVestSlim
 
@@ -25,8 +22,6 @@
   - MonoSecurityGuardAssaultBelt
   - MonoSecurityGuardSecurityCarrier
   - MonoSecurityGuardSecurityCarrierLarge
-  - ContractorClothingBeltHolster
-  - ContractorClothingBeltHolsterLarge
   fallbacks:
   - MonoSecurityGuardWebbing
 
@@ -76,9 +71,9 @@
 - type: loadoutGroup
   id: MonoSecurityGuardHud
   name: loadout-group-contractor-glasses
+  hidden: true # No point in showing this, it gets auto-selected.
   loadouts:
   - MonoSecHUD
-  - MonoSecPGlasses
   fallbacks:
   - MonoSecHUD
 
@@ -86,11 +81,6 @@
   id: MonoSecHUD
   equipment:
     eyes: ClothingEyesHudSecurity
-
-- type: loadout
-  id: MonoSecPGlasses
-  equipment:
-    eyes: ClothingEyesGlassesSecurityPrescription
 
 - type: loadoutGroup
   id: MonoSecurityGuardShoes
@@ -114,16 +104,6 @@
   loadouts:
   - MonoSecJumpsuitRed
   - MonoSecJumpsuitMaroon
-  - MonoSecJumpsuitRedAlt
-  - MonoSecJumpsuitGrey
-  - MonoSecJumpskirtRedAlt
-  - MonoSecJumpskirtGrey
-  - MonoSecJumpsuitMilitary
-  - MonoSecJumpsuitMilitaryShort
-  - MonoSecJumpsuitMilitaryGuard
-  - MonoSecJumpskirtMilitary
-  - MonoSecJumpskirtMilitaryShort
-  - MonoSecJumpskirtMilitaryGuard
   fallbacks:
   - MonoSecJumpsuitRed
 
@@ -136,56 +116,6 @@
   id: MonoSecJumpsuitMaroon
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorMaroon
-
-- type: loadout
-  id: MonoSecJumpsuitGrey
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitSecGrey
-
-- type: loadout
-  id: MonoSecJumpsuitRedAlt
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitSec
-
-- type: loadout
-  id: MonoSecJumpskirtGrey
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtSecGrey
-
-- type: loadout
-  id: MonoSecJumpskirtRedAlt
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtSec
-
-- type: loadout
-  id: MonoSecJumpskirtMilitary
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtNfsd
-
-- type: loadout
-  id: MonoSecJumpskirtMilitaryShort
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtNfsdShort
-
-- type: loadout
-  id: MonoSecJumpskirtMilitaryGuard
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtSecGuard
-
-- type: loadout
-  id: MonoSecJumpsuitMilitary
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitNfsd
-
-- type: loadout
-  id: MonoSecJumpsuitMilitaryShort
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitNfsdShort
-
-- type: loadout
-  id: MonoSecJumpsuitMilitaryGuard
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitSecGuard
 
 - type: loadoutGroup
   id: MonoSecurityGuardBack

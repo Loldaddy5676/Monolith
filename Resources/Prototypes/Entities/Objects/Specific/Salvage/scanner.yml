@@ -52,9 +52,6 @@
     slots:
       cell_slot:
         name: power-cell-slot-component-slot-name-default
-        blacklist: #Mono
-          tags:
-          - PowerCage
 
 - type: entity
   id: AdvancedMineralScannerUnpowered
@@ -94,6 +91,3 @@
     slots:
       cell_slot:
         name: power-cell-slot-component-slot-name-default
-        blacklist: #Mono
-          tags:
-          - PowerCage

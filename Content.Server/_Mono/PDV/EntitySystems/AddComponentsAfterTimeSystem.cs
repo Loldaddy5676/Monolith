@@ -19,11 +19,9 @@ public sealed partial class AddComponentsAfterTimeSystem : EntitySystem
 
     private void OnMapInit(Entity<AddComponentsAfterTimeComponent> ent, ref MapInitEvent args)
     {
-        if (ent.Comp.SelectionTime != TimeSpan.Zero) // already rolled
-            return;
         ent.Comp.SelectionTime = _timing.CurTime + TimeSpan.FromMinutes(_random.Next(ent.Comp.MinSelectionTime.Minutes, ent.Comp.MaxSelectionTime.Minutes));
         if (!_random.Prob(ent.Comp.SelectionProbability) || TryComp<CompanyComponent>(ent, out var company) && ent.Comp.ExcludedCompanies.Contains(company.CompanyName))
-            ent.Comp.SelectionTime = TimeSpan.MaxValue;
+            RemComp<AddComponentsAfterTimeComponent>(ent);
     }
 
     public override void Update(float frameTime)

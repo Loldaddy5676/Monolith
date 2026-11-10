@@ -12,8 +12,3 @@
   id: TsfmcClothingOuterHardsuitColonel
   equipment:
     outerClothing: ClothingOuterHardsuitNfsdSheriff
-
-- type: loadout
-  id: TsfmcClothingOuterArmorWintercoat
-  equipment:
-    outerClothing: ClothingOuterWinterTSF

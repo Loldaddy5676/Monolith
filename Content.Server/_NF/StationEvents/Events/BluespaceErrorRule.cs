@@ -128,10 +128,8 @@ public sealed partial class BluespaceErrorRule : StationEventSystem<BluespaceErr
                 EntityManager.AddComponents(spawned, group.AddComponents);
 
                 component.GridsUid.Add(spawned);
-                component.StartingValue += component.RewardAccounts.Count > 0
-                    ? _pricing.AppraiseGrid(spawned)
-                    : 0;
-                    
+                component.StartingValue += _pricing.AppraiseGrid(spawned);
+
                 if (component.ExtendIfPopulated)
                     _autoExtend.AutoExtend(uid, spawned);
             }
@@ -267,12 +265,7 @@ public sealed partial class BluespaceErrorRule : StationEventSystem<BluespaceErr
                     _transform.DetachEntity(mob.Entity.Owner, mob.Entity.Comp);
                 }
 
-                // Skip appraisal if there's no reward account. Appraisal eats up too much
-                // frame time for very large grids (e.g. vgroids).
-                var gridValue = component.RewardAccounts.Count > 0
-                    ? _pricing.AppraiseGrid(gridUid, null)
-                    : 0;
-
+                var gridValue = _pricing.AppraiseGrid(gridUid, null);
                 // Mono: currency injections
                 if (TryComp<CurrencyInjectionOnBluespaceErrorComponent>(uid, out var comp))
                 {
@@ -294,7 +287,7 @@ public sealed partial class BluespaceErrorRule : StationEventSystem<BluespaceErr
                             break;
                     }
                     if (gridValue / component.StartingValue > comp.IntegrityRequirement && requiredEntitiesFound) // good job!
-                        _currencyInjection.InjectCurrency(comp.Injection);
+                        _currencyInjection.InjectCurrency(comp.Company, comp.Amount);
                 }
                 // Mono end
 

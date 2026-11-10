@@ -18,7 +18,6 @@
   - type: Mech
     equipmentWhitelist:
       tags:
-      - LightMechMount
       - MediumMechMount
       - IFFMechMount
 
@@ -42,8 +41,6 @@
   - type: Mech
     equipmentWhitelist:
       tags:
-      - LightMechMount
-      - MediumMechMount
       - HeavyMechMount
       - IFFMechMount
 
@@ -455,7 +452,6 @@
   - type: MeleeWeapon
     hidden: true
     attackRate: 1
-    range: 2.2
     damage:
       types:
         Blunt: 50

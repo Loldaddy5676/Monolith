@@ -72,7 +72,6 @@
   loadouts:
   - TsfmcCombatBoots
   - TsfmcJackboots
-  - ContractorClothingShoesHighheelShoes # for the larp
   fallbacks:
   - TsfmcCombatBoots
 
@@ -106,8 +105,6 @@
   loadouts:
   - TsfmcCombatWebbing
   - TsfmcCombatWebbingLarge
-  - ContractorClothingBeltHolster
-  - ContractorClothingBeltHolsterLarge
   - ContractorClothingBeltSheathFilled
   fallbacks:
   - TsfmcCombatWebbing
@@ -120,8 +117,6 @@
   loadouts:
   - TsfmcCombatWebbing
   - TsfmcCombatWebbingLarge
-  - ContractorClothingBeltHolster
-  - ContractorClothingBeltHolsterLarge
   fallbacks:
   - TsfmcCombatWebbing
 
@@ -145,8 +140,6 @@
   - TsfmcCombatWebbingMedical
   - TsfmcCombatWebbing
   - TsfmcCombatWebbingLarge
-  - ContractorClothingBeltHolster
-  - ContractorClothingBeltHolsterLarge
   fallbacks:
   - TsfmcCombatWebbingMedical
 
@@ -295,7 +288,6 @@
   loadouts:
   - TsfmcClothingOuterArmorBPVestLight
   - TsfmcClothingOuterArmorBPVestMedium
-  - TsfmcClothingOuterArmorWintercoat
   fallbacks:
   - TsfmcClothingOuterArmorBPVestLight
 

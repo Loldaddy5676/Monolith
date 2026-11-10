@@ -85,9 +85,6 @@ namespace Content.Client.Chemistry.UI
             PillNumber.InitDefaultButtons();
             BottleDosage.InitDefaultButtons();
 
-            PillDosage.Value = 0; // Mono
-            BottleDosage.Value = 0; // Mono
-
             // Ensure label length is within the character limit.
             LabelLineEdit.IsValid = s => s.Length <= SharedChemMaster.LabelMaxLength;
 
@@ -170,9 +167,7 @@ namespace Content.Client.Chemistry.UI
         //assign default values for pill and bottle fields.
         private void UpdateDosageFields(ChemMasterBoundUserInterfaceState castState)
         {
-
             var output = castState.OutputContainerInfo;
-
             var remainingCapacity = output is null ? 0 : (output.MaxVolume - output.CurrentVolume).Int();
             var holdsReagents = output?.Reagents != null;
             var pillNumberMax = holdsReagents ? 0 : remainingCapacity;
@@ -184,8 +179,7 @@ namespace Content.Client.Chemistry.UI
                 _ => 0,
             };
 
-            if (PillDosage.Value == 0) // Mono
-                PillDosage.Value = (int)Math.Min(outputVolume, castState.PillDosageLimit);
+            PillDosage.Value = (int)Math.Min(outputVolume, castState.PillDosageLimit);
 
             PillTypeButtons[castState.SelectedPillType].Pressed = true;
 
@@ -201,16 +195,14 @@ namespace Content.Client.Chemistry.UI
             // Avoid division by zero
             if (PillDosage.Value > 0)
             {
-                if (PillNumber.Value == 0) // Mono
-                    PillNumber.Value = Math.Min(outputVolume / PillDosage.Value, pillNumberMax);
+                PillNumber.Value = Math.Min(outputVolume / PillDosage.Value, pillNumberMax);
             }
             else
             {
                 PillNumber.Value = 0;
             }
 
-            if (BottleDosage.Value == 0) // Mono
-                BottleDosage.Value = Math.Min(bottleAmountMax, outputVolume);
+            BottleDosage.Value = Math.Min(bottleAmountMax, outputVolume);
         }
         /// <summary>
         /// Generate a product label based on reagents in the buffer or beaker.

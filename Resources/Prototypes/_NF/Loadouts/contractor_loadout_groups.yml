@@ -165,34 +165,6 @@
   - ContractorClothingUniformJumpsuitMilitarySalvageSpecialist
   - ContractorClothingUniformJumpsuitMilitaryCargo
   - ContractorClothingUniformJumpsuitMilitaryQM
-  - MonoSecJumpsuitMilitary # Mono start
-  - MonoSecJumpsuitMilitaryShort
-  - MonoSecJumpsuitMilitaryGuard
-  - MonoSecJumpskirtMilitary
-  - MonoSecJumpskirtMilitaryShort
-  - MonoSecJumpskirtMilitaryGuard
-  - ContractorClothingUniformDressExquisiteBlue
-  - ContractorClothingUniformDressFancyBlue
-  - ContractorClothingUniformDressFlowyBlue
-  - ContractorClothingUniformDressFormalBlue
-  - ContractorClothingUniformDressFrillyBlue
-  - ContractorClothingUniformDressProfessionalBlue
-  - ContractorClothingUniformDressSleekBlue
-  - ContractorClothingUniformDressStylishBlue
-  - ContractorClothingUniformDressSuaveBlue
-  - ContractorClothingUniformSuitExquisiteBlue
-  - ContractorClothingUniformSuitFancyBlue
-  - ContractorClothingUniformSuitFlowyBlue
-  - ContractorClothingUniformSuitFormalBlue
-  - ContractorClothingUniformSuitStylishBlue
-  - ContractorClothingUniformSuitSuaveBlue
-  - ContractorClothingUniformTurtleneckSkirtFancyBlue
-  - ContractorClothingUniformTurtleneckSkirtPlainBlue
-  - ContractorClothingUniformTurtleneckSkirtStylishBlue
-  - ContractorClothingUniformTurtleneckSkirtClassicalBlue
-  - ContractorClothingUniformTurtleneckSuitFancyBlue
-  - ContractorClothingUniformTurtleneckSuitStylishBlue
-  # - ContractorClothingUniformTurtleneckSuitClassicalBlue # Mono end
   - ContractorClothingUniformDrakeIndustriesHauler
   - ContractorClothingUniformJumpsuitMilitaryMedicalDoctor
   - ContractorClothingUniformJumpsuitMilitaryParamedic
@@ -252,7 +224,6 @@
   - ContractorClothingBackpackDuffel
   - ContractorClothingBackpackSatchel
   - ContractorClothingBackpackMessenger
-  - ContractorClothingBackpackSatchelLeather
   - ContractorClothingBackpackCaptain
   - ContractorClothingBackpackDuffelCaptain
   - ContractorClothingBackpackSatchelCaptain
@@ -393,10 +364,6 @@
   - ContractorClothingOuterCoatTrench
   - ContractorClothingOuterDameDane
   - ContractorClothingOuterWinterCoatPlaid
-  - ContractorClothingOuterMilBomber # Mono start
-  - ContractorClothingOuterMilBomberCorpsman
-  - ContractorClothingOuterMilFormal
-  - ContractorClothingOuterMilLongcoat # Mono end
   - ContractorClothingOuterCoatBomber
   - ContractorClothingOuterCoatBomberPunkRed # Punkish (Static visuals)
   - ContractorClothingOuterCoatJacketLeather # Punkish (Static visuals)
@@ -506,7 +473,6 @@
   - ContractorClothingShoesBootsCowboyWhite
   - ContractorClothingShoesSnakeskinBoots
   - ContractorClothingShoesHighheelBoots
-  - ContractorClothingShoesHighheelShoes # Mono
   - ContractorClothingShoesBootsCowboyFancy
   - ContractorClothingShoesBootsWinterChiefEngineer
 #  - ContractorClothingShoesBootsWinterCMO # Temp removed for MOM. Will return if replaced.
@@ -785,7 +751,6 @@
   - ContractorClothingEyesHudDiagnostic
   - ContractorClothingEyesGlassesMeson
   - ContractorClothingEyesHudMedical
-  - ContractorClothingEyesPGlassesMedical # Mono
   - ContractorClothingEyesPunkGoggles # Punkish (Randomized visuals)
   - ContractorClothingEyesPunkInfoShades # Punkish (Randomized visuals)
   - ContractorClothingEyesEyepatchHudDiag
@@ -968,9 +933,6 @@
   loadouts:
   - ContractorClothingWalletLeatherBrown
   - ContractorClothingWalletLeatherBlack
-  - ContractorClothingWalletLeatherRed
-  - ContractorClothingWalletLeatherBlue
-  - ContractorClothingWalletLeatherGreen
   fallbacks:
   - ContractorClothingWalletLeatherBrown
 

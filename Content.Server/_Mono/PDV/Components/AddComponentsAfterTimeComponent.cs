@@ -1,11 +1,10 @@
 using Content.Shared._Mono.Company;
 using Robust.Shared.Prototypes;
-using Content.Shared._NF.Cloning;
 
 namespace Content.Server._Mono.PDV.Components;
 
 [RegisterComponent]
-public sealed partial class AddComponentsAfterTimeComponent : Component, ITransferredByCloning
+public sealed partial class AddComponentsAfterTimeComponent : Component
 {
     /// <summary>
     /// The probability that this component will remove itself immediately.

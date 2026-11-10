@@ -10,8 +10,5 @@ public sealed partial class ContextualSpeechTrigger
     public ProtoId<LocalizedDatasetPrototype> Dataset { get; private set; }
 
     [DataField]
-    public ProtoId<LocalizedDatasetPrototype>? GhostDataset { get; private set; }
-
-    [DataField]
     public float SpeechChance { get; private set; } = 1f;
 }

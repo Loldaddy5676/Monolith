@@ -32,22 +32,10 @@
   id: MMCOfficeSuit
   price: 0
   equipment:
-    jumpsuit: ClothingUniformJumpsuitBH
+    jumpsuit: ClothingUniformJumpsuitDetective
 
 - type: loadout
   id: MMCOfficeSuitBlack
   price: 0
   equipment:
-    jumpsuit: ClothingUniformJumpsuitBHGrey
-
-- type: loadout
-  id: MMCOfficeSkirt
-  price: 0
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtBH
-
-- type: loadout
-  id: MMCOfficeSkirtBlack
-  price: 0
-  equipment:
-    jumpsuit: ClothingUniformJumpskirtBHGrey
+    jumpsuit: ClothingUniformJumpsuitDetectiveGrey

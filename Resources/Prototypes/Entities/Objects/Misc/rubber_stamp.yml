@@ -156,7 +156,7 @@
     state: stamp-hop
 
 - type: entity
-  name: overseer's rubber stamp # Mono - Overseer
+  name: head of security's rubber stamp
   parent: RubberStampBase
   id: RubberStampHos
   categories: [ DoNotMap ]

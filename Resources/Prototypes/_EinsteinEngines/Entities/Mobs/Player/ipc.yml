@@ -40,9 +40,6 @@
         locked: true
         name: power-cell-slot-component-slot-name-default
         startingItem: PowerCellMedium
-        blacklist: #Mono
-          tags:
-          - PowerCage
   - type: BatterySlotRequiresLock
     itemSlot: cell_slot
   - type: EncryptionHolderRequiresLock
@@ -131,7 +128,6 @@
   - type: CanHostGuardian
   - type: WeldingHealable
   - type: RetroMonitorView # Mono
-  - type: DamagedSiliconAccent
 
 - type: entity
   save: false

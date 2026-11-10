@@ -51,7 +51,6 @@
   cost: 60000
   recipeUnlocks:
   - ShipVoucherTsfT2Recipe
-  - ZephyrVoucherTSF
   technologyPrerequisites:
   - TsfTierOneVouchers
   - UniversalMaterialResearchT2

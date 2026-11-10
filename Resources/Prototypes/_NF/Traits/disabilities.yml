@@ -30,7 +30,6 @@
   id: Uncloneable
   name: trait-uncloneable-name
   description: trait-uncloneable-desc
-  cost: -4 # Mono
-  category: Physical # Mono
+  category: Disabilities
   components:
     - type: Uncloneable

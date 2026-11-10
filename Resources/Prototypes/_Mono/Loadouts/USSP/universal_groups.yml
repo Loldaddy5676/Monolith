@@ -34,7 +34,6 @@
   maxLimit: 1
   loadouts:
   - ContractorClothingBeltHolster
-  - ContractorClothingBeltHolsterLarge
   - MercenaryClothingBeltSecurityEmpty
   subgroups:
   - USSPBelt

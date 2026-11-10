@@ -50,12 +50,11 @@
       BlackMarket: 0.25
   - type: ExtendDescription
     descriptionList:
-    - description: Selling this item will fund the PDV's treasury and notify the TSFMC.
+    - description: Selling this item will fund the PDV.
       color: "#4f94ad"
       requireDetailRange: true
   - type: SoldAlert
-    threshold: 0
-    maxPerSale: 100
+    threshold: 3
     channels:
     - Command
     - Security

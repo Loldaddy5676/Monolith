@@ -67,7 +67,7 @@ namespace Content.Server.Examine
             }
 
             // The examine was successful, so trigger contextual speech.
-            var speechEvent = new SpeechTriggerEvent(SpeechTrigger.Examined, playerEnt);
+            var speechEvent = new SpeechTriggerEvent(SpeechTrigger.Examined);
             RaiseLocalEvent(entity, ref speechEvent);
 
             SortedSet<Verb>? verbs = null;

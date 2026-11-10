@@ -4,10 +4,8 @@
   name: space animal lungs
   components:
   - type: Organ
-    removable: false
     onAdd:
     - type: BreathingImmunity
-  - type: DestroyItemOnPickup
 
 - type: entity
   parent: OrganAnimalHeart
@@ -15,10 +13,8 @@
   name: space animal heart
   components:
   - type: Organ
-    removable: false
     onAdd:
     - type: PressureImmunity
-  - type: DestroyItemOnPickup
 
 - type: entity
   parent: OrganAnimalHeart

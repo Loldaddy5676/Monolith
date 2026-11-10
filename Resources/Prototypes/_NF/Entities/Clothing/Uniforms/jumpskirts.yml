@@ -23,24 +23,14 @@
 - type: entity
   parent: ClothingUniformJumpskirtDetective
   id: ClothingUniformJumpskirtBH
-  name: hard-worn suitskirt # Mono - skirt
+  name: hard-worn suit
   description: Someone who wears this means business.
-  components: # Mono - skirt
-    - type: Sprite
-      sprite: Clothing/Uniforms/Jumpskirt/detective.rsi
-    - type: Clothing
-      sprite: Clothing/Uniforms/Jumpskirt/detective.rsi
 
 - type: entity
   parent: ClothingUniformJumpskirtDetectiveGrey
   id: ClothingUniformJumpskirtBHGrey
-  name: noir suitskirt # Mono - skirt
+  name: noir suit
   description: A grey suit, complete with tie clip.
-  components: # Mono - skirt
-    - type: Sprite
-      sprite: Clothing/Uniforms/Jumpskirt/detective_grey.rsi
-    - type: Clothing
-      sprite: Clothing/Uniforms/Jumpskirt/detective_grey.rsi
 
 - type: entity
   parent: ClothingUniformSkirtBase
@@ -56,8 +46,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtSecGuard
-  name: military guard's skirt # Mono - Rename/redesc
-  description: A specialized uniform for military guardswomen. # Mono - Rename/redesc
+  name: security guard's uniform
+  description: A specialized uniform for Colonial Outpost's station guard. Crisp and official to let dock loiterers know you mean business.
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpskirt/security_guard.rsi
@@ -67,8 +57,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtNfsd
-  name: military jumpskirt # Mono - Rename/redesc
-  description: A long sleeved jumpskirt produced for military soldiers. Designed to reduce chaffing between the legs for the comfort of skin, slime, scales, fluff, and wood. # Mono - Rename/redesc
+  name: TSFMC jumpskirt
+  description: A long sleeved jumpskirt produced for deputy colonels. Designed to reduce chaffing between the legs for the comfort of skin, slime, scales, fluff, and wood.
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpskirt/nfsd_skirt.rsi
@@ -78,8 +68,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtNfsdShort
-  name: military short-sleeved jumpskirt # Mono - Rename/redesc
-  description: A short sleeved jumpskirt produced for military soldiers. Designed to reduce chaffing between the legs for the comfort of skin, slime, scales, fluff, and wood. # Mono - Rename/redesc
+  name: TSFMC jumpskirt
+  description: A short sleeved jumpskirt produced for deputy colonels. Designed to reduce chaffing between the legs for the comfort of skin, slime, scales, fluff, and wood.
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpskirt/nfsd_skirt_short.rsi
@@ -89,8 +79,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtPublicAffairsLiaison
-  name: military clerk jumpskirt # Mono - Rename/redesc
-  description: A starched and pressed skirt suit for a military clerk. # Mono - Rename/redesc
+  name: public affairs liaison jumpskirt
+  description: A starched and pressed skirt suit for the public affairs liaison.
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpskirt/public_affairs.rsi

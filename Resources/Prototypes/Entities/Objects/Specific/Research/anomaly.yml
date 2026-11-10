@@ -21,7 +21,7 @@
     - ScannersAndVessels
   - type: Item
     storedRotation: -90
-
+    
 - type: entity
   id: AnomalyLocatorUnpowered
   parent: BaseItem
@@ -80,9 +80,6 @@
     slots:
       cell_slot:
         name: power-cell-slot-component-slot-name-default
-        blacklist: #Mono
-          tags:
-          - PowerCage
 
 - type: entity
   id: AnomalyLocatorWideUnpowered
@@ -117,9 +114,6 @@
     slots:
       cell_slot:
         name: power-cell-slot-component-slot-name-default
-        blacklist: #Mono
-          tags:
-          - PowerCage
 
 - type: entity
   name: G.O.R.I.L.L.A. gauntlet

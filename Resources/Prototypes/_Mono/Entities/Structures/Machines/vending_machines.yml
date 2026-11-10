@@ -82,11 +82,6 @@
   parent: [BaseStructureDisableToolUse, VendingMachineSyndieContraband]
   id: VendingMachineSyndieContrabandPOI
   suffix: POI
-  components:
-  - type: CurrencyInjectionTarget
-    company: Underground
-    radioChannel: Syndicate
-    injectionAlert: underground-currency-injection-alert 
 
 - type: entity
   parent: VendingMachineCredit

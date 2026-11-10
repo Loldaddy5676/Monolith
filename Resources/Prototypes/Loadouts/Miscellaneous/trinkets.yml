@@ -19,7 +19,7 @@
   id: Hairflower
   storage:
     back:
-    - ClothingHeadHatHairflowerWhite # Moffstation - Color changing hairflower
+    - ClothingHeadHatHairflower
 
 # Headphones
 - type: loadout

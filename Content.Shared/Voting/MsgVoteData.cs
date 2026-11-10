@@ -36,9 +36,7 @@ namespace Content.Shared.Voting
             DisplayVotes = buffer.ReadBoolean();
             TargetEntity = buffer.ReadVariableInt32();
 
-            var length = buffer.ReadByte();
-            buffer.AssertAtLeastSize(length * (sizeof(short) + NetMessageExt.MinSizeOfString + sizeof(short))); // Mono: add realvotes size
-            Options = new (ushort votes, string name, ushort realvotes)[length]; // Mono: add realvotes size
+            Options = new (ushort votes, string name, ushort realvotes)[buffer.ReadByte()];
             for (var i = 0; i < Options.Length; i++)
             {
                 Options[i] = (buffer.ReadUInt16(), buffer.ReadString(), buffer.ReadUInt16());

@@ -28,7 +28,6 @@
               key: Target
           operator: !type:GunOperator
             targetKey: Target
-            opaqueKey: true
           services:
             - !type:UtilityService
               id: RangedService

@@ -116,9 +116,6 @@ public sealed partial class JammerSystem : SharedJammerSystem
         
     if (!TryComp<TransformComponent>(args.RadioSource, out var sourceTransform))
         return;
-    
-    if (!args.Jammable) // Mono: unjammable radio messages
-        return;
 
     var source = sourceTransform.Coordinates;
 
