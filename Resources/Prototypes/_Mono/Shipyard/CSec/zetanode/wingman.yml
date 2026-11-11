@@ -2,12 +2,12 @@
   id: Wingman
   parent: BaseVessel
   name: ZN Wingman
-  description: An advance security drone equipped with two toveks, and a equinox.
-  price: 30000
+  description: An advance security drone equipped with emp weaponary.
+  price: 45000
   category: Small
   group: Custom
   mapchecker_group_override: Security
-  shuttlePath: /SharedMaps/_Mono/Shuttles/Csec/zetanode/wingman.yml
+  shuttlePath: /SharedMaps/_Mono/Shuttles/CSec/Zetanode/wingman.yml
   guidebookPage: Null
   class:
   - Pursuit
@@ -18,14 +18,14 @@
 - type: gameMap
   id: Wingman
   mapName: 'Wingman'
-  mapPath: /SharedMaps/_Mono/Shuttles/Csec/zetanode/wingman.yml
+  mapPath: /SharedMaps/_Mono/Shuttles/CSec/Zetanode/wingman.yml
   minPlayers: 0
   stations:
     Wingman:
       stationProto: StandardFrontierVessel
       components:
       - type: StationNameSetup
-        mapNameTemplate: 'Wingman TSF{1}'
+        mapNameTemplate: 'Wingman CSEC{1}'
         nameGenerator:
           !type:NanotrasenNameGenerator
           prefixCreator: '14'

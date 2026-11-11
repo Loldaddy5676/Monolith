@@ -3,11 +3,11 @@
   parent: BaseVessel
   name: ZN Pill
   description: A search and rescue drone designed to bring back stranded spacers within range of the outpost.
-  price: 30000
+  price: 15000
   category: Small
   group: Custom
   mapchecker_group_override: Security
-  shuttlePath: /SharedMaps/_Mono/Shuttles/Csec/zetanode/pill.yml
+  shuttlePath: /SharedMaps/_Mono/Shuttles/CSec/Zetanode/pill.yml
   guidebookPage: Null
   class:
   - Pursuit
@@ -18,14 +18,14 @@
 - type: gameMap
   id: Pill
   mapName: 'Pill'
-  mapPath: /SharedMaps/_Mono/Shuttles/Csec/zetanode/pill.yml
+  mapPath: /SharedMaps/_Mono/Shuttles/CSec/Zetanode/pill.yml
   minPlayers: 0
   stations:
     Pill:
       stationProto: StandardFrontierVessel
       components:
       - type: StationNameSetup
-        mapNameTemplate: 'Pill TSF{1}'
+        mapNameTemplate: 'Pill CSEC{1}'
         nameGenerator:
           !type:NanotrasenNameGenerator
           prefixCreator: '14'
