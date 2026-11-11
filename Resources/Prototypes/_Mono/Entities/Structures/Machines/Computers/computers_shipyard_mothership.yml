@@ -100,3 +100,15 @@
       state: shipyard_blackmarket
     - map: ["computerLayerKeys"]
       state: blackmarket_key
+
+- type: entity
+  id: Zetanodeshipyard
+  parent: BaseCarrierComputer
+  name: Zeta Node Drone Shipyard
+  description: A console that authorizes and constructs a drone for security use.
+  components:
+  - type: ShipyardListing
+    shuttles:
+    - Pinkerton
+    - Wingman
+    - Pill
