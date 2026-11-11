@@ -11,7 +11,7 @@
   - type: IFF
     color: "#37946e"
   - type: VesselInfo
-    description: "Even the air has a thin coat of dust."
+    description: "An old dusty dock equiped with a drone hanger and minor defenses."
 
 - type: gameMap
   id: ZetaNode
