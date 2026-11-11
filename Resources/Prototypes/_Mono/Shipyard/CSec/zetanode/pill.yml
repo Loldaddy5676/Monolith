@@ -7,7 +7,7 @@
   category: Small
   group: Custom
   mapchecker_group_override: Security
-  shuttlePath: /SharedMaps/_Mono/Shuttles/TSF/Fujian/zephyr_ec.yml
+  shuttlePath: /SharedMaps/_Mono/Shuttles/Csec/zetanode/pill.yml
   guidebookPage: Null
   class:
   - Pursuit
@@ -18,7 +18,7 @@
 - type: gameMap
   id: Pill
   mapName: 'Pill'
-  mapPath: /SharedMaps/_Mono/Shuttles/TSF/Fujian/zephyr_ec.yml
+  mapPath: /SharedMaps/_Mono/Shuttles/Csec/zetanode/pill.yml
   minPlayers: 0
   stations:
     Pill:
