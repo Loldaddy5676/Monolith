@@ -1,11 +1,11 @@
 meta:
   format: 7
   category: Grid
-  engineVersion: 277.0.0
+  engineVersion: 277.0.5
   forkId: ""
   forkVersion: ""
-  time: 11/11/2026 00:17:20
-  entityCount: 116
+  time: 11/11/2026 22:19:47
+  entityCount: 118
 maps: []
 grids:
 - 1
@@ -57,11 +57,11 @@ entities:
     - type: ThermalSignature
     - type: SpreaderGrid
       spreadQueues:
+        MetalFoam: []
+        Smoke: []
+        ESTileFire: []
         Kudzu: []
         Puddle: []
-        MetalFoam: []
-        ESTileFire: []
-        Smoke: []
     - type: Shuttle
       dampingModifier: 0.25
     - type: ImplicitRoof
@@ -226,6 +226,11 @@ entities:
     - type: Transform
       pos: 0.5,7.5
       parent: 1
+  - uid: 118
+    components:
+    - type: Transform
+      pos: 0.5,3.5
+      parent: 1
 - proto: Catwalk
   entities:
   - uid: 69
@@ -348,6 +353,13 @@ entities:
       parent: 1
     missingComponents:
     - Anchorable
+- proto: GeneratorWallmountAPU
+  entities:
+  - uid: 117
+    components:
+    - type: Transform
+      pos: 0.5,3.5
+      parent: 1
 - proto: GrilleDiagonal
   entities:
   - uid: 12
