@@ -27,9 +27,10 @@
   displayWeight: 60 # Top
   canBeAntag: false
   accessGroups:
-  - AllAccessMono #Mono
+  - GeneralAccess
   access:
-  - HeadOfPersonnel #Mono
+  - Caelestinus
+  - CaelestinusCommand #Mono
   guides:
   - Caelestinus
   special:
